@@ -14,7 +14,7 @@ body {
   max-width: 100%;
 }
 
-.a{
+a{
   text-decoration:none
 }
 
@@ -167,7 +167,7 @@ header a:hover {
 }
 
 .proj-img-text p{
-  color:#798897;
+  color:#ffffff;
   font-size:20px;
   font-weight:normal;
 }
