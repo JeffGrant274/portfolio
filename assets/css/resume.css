@@ -2,7 +2,7 @@
   --primary-color: #926329;
   --secondary-color: #c14242;
 }
-
+/*global style*/
 * {
   margin: 0;
   padding: 0;
@@ -56,30 +56,30 @@ header a:hover {
   justify-content: center;
   width: 100%;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
-.info{
-    width:20%;
-    display:inline-block;
-    border-right: 5px solid var(--primary-color);
+.info {
+  width: 20%;
+  display: inline-block;
+  border-right: 5px solid var(--primary-color);
 }
 
 .resume {
-width:80%;
-align-items:right;
-display:inline-block;
-padding: 45px
+  width: 80%;
+  align-items: right;
+  display: inline-block;
+  padding: 45px;
 }
 
 /*contact me style*/
 
 .mug {
-    height: 500px;
-    width: 500px;
-    padding:25px;
-    overflow: hidden;
-  }
+  height: 500px;
+  width: 500px;
+  padding: 25px;
+  overflow: hidden;
+}
 
 .contact-me {
   display: flex;
@@ -88,12 +88,10 @@ padding: 45px
   flex-direction: column;
 }
 
-
-
 .flex-title h2 {
   font-size: 45px;
-  padding:40px;
-  margin-left:45px;
+  padding: 40px;
+  margin-left: 45px;
   color: var(--primary-color);
 }
 
@@ -101,7 +99,7 @@ padding: 45px
   display: flex;
   justify-content: space-between;
   width: 70%;
-  margin-left:15px;
+  margin-left: 15px;
   color: var(--secondary-color);
 }
 

@@ -3,6 +3,7 @@
   --secondary-color: #c14242;
 }
 
+/*Global styles*/
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +15,8 @@ body {
   max-width: 100%;
 }
 
-a{
-  text-decoration:none
+a {
+  text-decoration: none;
 }
 
 .logo {
@@ -56,6 +57,8 @@ header a {
   color: var(--primary-color);
   font-size: larger;
 }
+
+/*nav bar hover changes*/
 
 header a:hover {
   color: var(--secondary-color);
@@ -157,30 +160,31 @@ header a:hover {
   align-items: center;
   justify-content: center;
   opacity: 0;
-  font-family:fantasy;
+  font-family: fantasy;
 }
 
-.proj-img-text h3{
-  color:#c14242;
-  font-weight:bold;
-  font-size:30px;
+.proj-img-text h3 {
+  color: #c14242;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.proj-img-text p{
-  color:#ffffff;
-  font-size:20px;
-  font-weight:normal;
+.proj-img-text p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: normal;
 }
 
+/*work section hover changes*/
 .proj-img:hover {
-  opacity: .7;
-transition: 4ms;
-z-index:1S
+  opacity: 0.7;
+  transition: 4ms;
+  z-index: 1s;
 }
 
 .proj-img-text:hover {
   opacity: 1;
-  z-index:999;
+  z-index: 999;
 }
 
 /*contact info style*/
@@ -209,6 +213,7 @@ z-index:1S
   color: var(--secondary-color);
 }
 
+/*contact me hover changes*/
 .fab {
   font-size: 45px;
   color: var(--primary-color);
