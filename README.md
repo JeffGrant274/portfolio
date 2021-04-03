@@ -20,4 +20,7 @@
 * Basic style for my resume page
 * used a flexbox for formatting content
 
+![Alt text](https://github.com/JeffGrant274/portfolio/blob/main/assets/images/jeffs%20portfolio.png)
+
+https://jeffgrant274.github.io/portfolio/
 
